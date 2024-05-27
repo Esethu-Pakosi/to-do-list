@@ -1,0 +1,87 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.form-control.task-item {
+    font-weight: bold;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.input-group-text {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border: 2px solid #f5e1da;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.card-header {
+    background-color: #f5e1da;
+    border-bottom: 2px solid #f5e1da;
+}
+
+#taskInput {
+    margin-bottom: 15px;
+}
+
+#taskList {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #3083A2;
+    color: white;
+    border: none;
+    transition: background-color 0.5s; 
+}
+
+.btn:hover {
+    background-color: #255464;
+}
+
+.btn-danger {
+    background-color: #DC3545;
+}
+
+.btn-danger:hover {
+    background-color: #C82333;
+}
+
+.edit-task {
+    margin-top: 5px;
+    margin-left: 35px;
+    color: #0056b3;
+    cursor: pointer;
+}
+
+.edit-task:hover {
+    color: #54a3f7;
+}
+
+.remove-task {
+    margin-top: 5px;
+   padding-right: 10px;
+    margin-left: 35px;
+    color: #DC3545;
+    cursor: pointer;
+}
+
+.remove-task:hover {
+    color: red;
+}
+
+#deleteSelectedBtn {
+    margin-left: 5px;
+}
